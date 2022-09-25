@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "colabtools"
+version = "0.0.1"
+authors = [
+  { name="John Ward", email="john@itsjohnward.com" },
+]
+description = "Helper methods to simplify working with Google Colab"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies=[]
+
+[project.urls]
+"Homepage" = "https://github.com/itsjohnward/colabtools"
+"Bug Tracker" = "https://github.com/itsjohnward/colabtools/issues"
