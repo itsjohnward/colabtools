@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
 name = "colabtools"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="John Ward", email="john@itsjohnward.com" },
 ]
@@ -15,8 +15,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies=[
-    tensorflow,
+dependencies = [
+    "tensorflow",
 ]
 
 [project.urls]
